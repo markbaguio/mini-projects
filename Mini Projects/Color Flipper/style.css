@@ -1,0 +1,73 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+}
+
+/*For NAV BAR*/
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #333;
+  height: 80px;
+}
+
+.navbar_links ul {
+  /* list-style: none; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navbar_links li {
+  list-style: none;
+}
+
+.navbar_links li a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+}
+
+.navbar_links li a:hover {
+  color: #364966;
+  transition: 0.3s all ease-in-out;
+}
+
+/*for BODY*/
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+span {
+  font-size: 2.5rem;
+}
+
+.main_container {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  width: 100%;
+  background-color: #f1f5f8;
+  /* margin-top: 50%; */
+  border-radius: 20px;
+  opacity: 0.5;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.flip_button {
+  border-radius: 10px;
+  background-color: transparent;
+  outline: none;
+}
+
+.flip_button:hover {
+  background-color: azure;
+  transition: all 0.3s ease-in-out;
+}

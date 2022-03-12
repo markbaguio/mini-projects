@@ -1,0 +1,62 @@
+:root {
+  --initial-Vertical-Position: Math.floor(Math.random() * 100);
+  --initial-Horizontal-Position: Math.floor(Math.random() * 100);
+}
+
+* {
+  cursor: crosshair;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #333;
+  margin: 0;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.score_container {
+  color: #333;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 2rem;
+  margin: 0;
+  background-color: white;
+  opacity: 0.5;
+}
+
+#div_pop {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  height: 30px;
+  width: 30px;
+  transform: translate(-50%);
+  background-color: white;
+  border-radius: 50%;
+}
+
+#div_pop:hover {
+  cursor: crosshair;
+  background-color: #800000;
+  transition: 0.3s all ease-in-out;
+}
+
+#div_pop2 {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  height: 30px;
+  width: 30px;
+  transform: translate(-50%);
+  background-color: white;
+  border-radius: 50%;
+}
+
+#div_pop2:hover {
+  cursor: crosshair;
+  background-color: #800000;
+  transition: 0.3s all ease-in-out;
+}
